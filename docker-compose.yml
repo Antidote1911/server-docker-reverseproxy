@@ -21,8 +21,8 @@ services:
       DISABLE_IPV6: 'true'
 
     volumes:
-      - /home/antidote/nginx/data:/data:rw
-      - /home/antidote/nginx/letsencrypt:/etc/letsencrypt:rw
+      #- /home/antidote/nginx/data:/data:rw
+      #- /home/antidote/nginx/letsencrypt:/etc/letsencrypt:rw
       - "/mnt/Partage/Logiciels/nginx/letsencrypt:/etc/letsencrypt:rw"
       - "/mnt/Partage/Logiciels/nginx/data:/data:rw"
       # chown: changing ownership of '/data/nginx/default_host': Operation not permitted
