@@ -1,6 +1,6 @@
 services:
   app:
-    image: 'jc21/nginx-proxy-manager:v3'
+    image: 'jc21/nginx-proxy-manager:2.12.0'
     container_name: nginx
     restart: unless-stopped
     ports:
